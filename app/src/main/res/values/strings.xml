@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">kelasCsqllite</string>
+    <string name="tampil_data">Tampil Data</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="datakontak">data Kontak</string>
+    <string name="namaitem">Nama Item</string>
+    <string name="detailkontak">Detail Kontak</string>
+    <string name="nama">Nama</string>
+    <string name="notel">Nomor Telpon</string>
 </resources>

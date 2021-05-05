@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/mnview"
+        android:title="@string/tampil_data" />
+
+    <item
+        android:id="@+id/mnedit"
+        android:title="@string/edit_data" />
 </menu>

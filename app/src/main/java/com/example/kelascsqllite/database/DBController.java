@@ -36,6 +36,14 @@ public class DBController extends SQLiteOpenHelper {
         dbasisdata.insert("teman",null,nilai);
         dbasisdata.close();
     }
+    public void editData(HashMap<String, String> queryValues, String  position) {
+        SQLiteDatabase dbasisdata = this.getWritableDatabase();
+        ContentValues nilai = new ContentValues();
+        nilai.put("nama",queryValues.get("nama"));
+        nilai.put("telpon",queryValues.get("telpon"));
+        dbasisdata.update("teman", nilai, position, null);
+        dbasisdata.close();
+    }
 
     public ArrayList<HashMap<String, String>> getAllTeman(){
         ArrayList<HashMap<String,String>> daftarTeman;
